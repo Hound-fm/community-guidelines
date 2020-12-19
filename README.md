@@ -7,6 +7,9 @@ This is the first version of our Community Guidelines. Please read carefully and
 | :warning: | Ignoring this guidelines doesn't benefit the community and it will result on a negative impact for discoverability and overall experience.
 |---|:---|
 
+> warning "I am a warning"
+> The body of the warning box goes here. Premonition allows you to write any `Markdown` inside the block.
+
 
 ### Not Allowed
 
