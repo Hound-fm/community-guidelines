@@ -5,7 +5,7 @@
 This is the first version of our Community Guidelines. Please read carefully and don't forget to check for new updates.
 
 | :warning: | Ignoring this guidelines doesn't benefit the community and it will result on a negative impact for discoverability and overall experience.
-|---|:--|
+|---|:---|
 
 
 ### Not Allowed
