@@ -77,12 +77,22 @@ Content creators can publish original content on a specific channel:
 
 #### Types of channels:
 
+Based on musicbrainz [schema](https://musicbrainz.org/doc/Artist)
+
 | Type | Description
 |---|:--- |
 | Person | This indicates an individual person.
 | Group |  This indicates a group of people that may or may not have a distinctive name.
 | Podcast | This indicates a podcast series, usually features one or more recurring hosts engaged in a discussion about a particular topic or current event.
 | Publisher | Record labels, music publishers, or the company that owns it.
+
+Different types of channels allows to have a clear `relation` between them:
+
+- A `Person` can be linked as the host or guest of a `podcast`.
+
+- Different members of a band can be linked to a `group`.
+
+A discover with a relation of linked channels benefits all of them and not just the original publisher, and they can be consider as collaborators.
 
 | :warning: | Work in progress, we need more feedback from other creators.
 |---|:---|
