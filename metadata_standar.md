@@ -1,4 +1,5 @@
-# Metadata Standar
+# Metadata Standard
+### Overview
 
 ### Metadata
 
@@ -7,7 +8,7 @@
 | :information_source: | The content of this document will cover only specific areas for improvement, please read the complete metadata [specification](https://lbry.tech/spec#metadata)
 |---|:---|
 
-### Open Standar
+### Open Standard
 
 > Using standardised metadata descriptions makes datasets:
 
