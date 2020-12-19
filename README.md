@@ -17,7 +17,7 @@ This is the first version of our Community Guidelines. Please read carefully and
 :x: Curate or publish unlicensed content ( Not having the official and legal permisions to publish specific content )
 
 
-### Guidelines links:
+### Full list of guidelines:
 
 | :information_source: | [Human curators guidelines]()
 |---|:---|
