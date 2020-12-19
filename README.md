@@ -70,3 +70,10 @@ Once the discover is verified it will be aggregated and broadcasted to the commu
 
 | :warning: | It is important that the curator verifies the credibility of the content origins and the metadata provided: If not enough metadata is provided the content won't be aggregated and the discover is ignored, this is also true if the aggregation system detects metadata abuse.
 |---|:---|
+
+
+## Content creators
+
+| :warning: | Work in progress, we need more feedback from other creators.
+|---|:---|
+
