@@ -1,5 +1,8 @@
 # Metadata Standard
+
 ### Overview
+| :warning: | Work in progress, we need more help and feedback from the community.
+|---|:---|
 
 ### Metadata
 
@@ -20,3 +23,6 @@
 > Ultimately makes it easier for datasets to be used in real-world situations to add value.
 
 Source: [Metadata standards for open data](https://salsadigital.com.au/insights/metadata-standards-for-open-data)
+
+| :warning: | Work in progress, we need more help and feedback from the community.
+|---|:---|
