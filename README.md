@@ -1,4 +1,4 @@
-# Community Guidelines
+## Community Guidelines
 
 ### Overview
 
@@ -7,7 +7,7 @@ This is the first version of our Community Guidelines. Please read carefully and
 | :warning: | Ignoring this guidelines doesn't benefit the community and it will result on a negative impact for discoverability and overall experience.
 |---|:---|
 
-### Not Allowed
+#### Not Allowed
 
 :x: Spam ( Fake accounts, unesessary user interactions, advertisment etc.. )
 
@@ -15,17 +15,17 @@ This is the first version of our Community Guidelines. Please read carefully and
 
 :x: Curate or publish unlicensed content ( Not having the official and legal permisions to publish specific content )
 
+#### Summary
 
-### Links
-
-| :information_source: | [Human curators]()
+| :link: | Links
 |---|:--- |
-| :information_source: | [Discover system]()
-| :information_source: | [Content creators]()
+ :information_source: | [Overview](#user-content-community-guidelines)
+| :information_source: | [Human curators](#user-content-human-curators)
+| :information_source: | [Discover system](#user-content-discover-system)
+| :information_source: | [Content creators](#user-content-content-creators)
 
+## Human curators
 
-
-### Human curators
 Curators are people that help us [discover](...) new content published on lbry.
 Everyone can become a curator by creating a [channel](https://lbry.tech/spec#channels) and following this guidelines:
 
@@ -35,7 +35,10 @@ Everyone can become a curator by creating a [channel](https://lbry.tech/spec#cha
 
 - Verify metadata of new discovered content and notify creators if further changes are required to improve discoverability.
 
-### Discover system
+| :warning: | Only use a single channel for curation. It is recommended to include the `curator` tag in the channel metadata. ( This will be required in the future )
+|---|:---|
+
+## Discover system
 
 Hound.fm provides a community-driven discovery system powered by [curators](...).
 
