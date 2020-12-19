@@ -1,7 +1,5 @@
 # Metadata Standar
 
-### Overview
-
 > Using standardised metadata descriptions makes datasets more discoverable, more easily syndicated, more transferable, and ultimately makes it easier for datasets to be used in real-world situations to add value.
 >
 > Consistency between datasets means datasets are:
@@ -18,4 +16,5 @@
 
 > Metadata is structured information about a stream or channel separate from the content itself (e.g. the title, language, media type, etc.). It is stored in the blockchain as the value property of a claim.
 
-See [Metadata specification](https://lbry.tech/spec#metadata)
+| :information_source: | The content of this document will cover only specific areas for improvement, please read the [Full metadata specification](https://lbry.tech/spec#metadata)
+|---|:---|
