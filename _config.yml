@@ -2,6 +2,7 @@ plugins:
   - jemoji
   - jekyll-titles-from-headings
   - premonition
+  - jekyll-spaceship
   
 relative_links:
   enabled: true
