@@ -57,7 +57,7 @@ In other words a "discover" is basically a recommendation done by the curator an
 
 #### Curator actions:
 
-An "action" is just an special [transaction](https://lbry.com/faq/transaction-types), once is aproved it will take a few minutes to appear as a new discover.
+An "action" is just an special [transaction](https://lbry.com/faq/transaction-types), once is verified it will take a few minutes to appear as a new discover.
 
 | Name | Description
 |---|:---|
