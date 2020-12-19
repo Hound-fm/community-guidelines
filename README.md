@@ -73,6 +73,16 @@ Once the discover is verified it will be aggregated and broadcasted to the commu
 
 
 ## Content creators
+Content creators can publish original content on a specific channel:
+
+#### Types of channels:
+
+| Type | Description
+|---|:--- |
+| Person | This indicates an individual person.
+| Group |  This indicates a group of people that may or may not have a distinctive name.
+| Podcast | This indicates a podcast series, usually features one or more recurring hosts engaged in a discussion about a particular topic or current event.
+| Publisher | Record labels, music publishers, or the company that owns it.
 
 | :warning: | Work in progress, we need more feedback from other creators.
 |---|:---|
