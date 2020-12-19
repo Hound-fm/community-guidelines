@@ -26,10 +26,10 @@ This is the first version of our Community Guidelines. Please read carefully and
 
 ## Human curators
 
-Curators are people that help us [discover](...) new content published on lbry.
+Curators are people that help us [discover](#user-content-discover-system) new content published on lbry.
 Everyone can become a curator by creating a [channel](https://lbry.tech/spec#channels) and following this guidelines:
 
-- [Discover](...) awesome channels and original content.
+- Discover and recommend awesome channels with original content.
 
 - Report [unlicensed content](https://lbry.com/faq/dmca) or [metadata abuse](https://lbry.com/dmca)
 
