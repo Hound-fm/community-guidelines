@@ -19,8 +19,8 @@ This is the first version of our Community Guidelines. Please read carefully and
 
 ### Links
 
-| :information_source: | [Human curators guidelines]()
+| :information_source: | [Human curators]()
 |---|:---|
-| :information_source: | [Content creators guidelines]()
+| :information_source: | [Content creators]()
 
 
