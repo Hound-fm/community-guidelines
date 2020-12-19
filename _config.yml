@@ -3,6 +3,8 @@ plugins:
   - jekyll-titles-from-headings
   - premonition
   - jekyll-spaceship
+
+markdown: CommonMarkGhPages
   
 relative_links:
   enabled: true
