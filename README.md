@@ -65,5 +65,5 @@ An "action" is just an special [transaction](https://lbry.com/faq/transaction-ty
 
 Once the discover is verified it will be aggregated and broadcasted to the community.
 
-| :warning: | It is important that the curator verifies the credibility of the content origins and the metadata provided: If not enough metadata is provided the content won't be aggregated and the discover is ignored, this is also true it the aggregation system detects metadata abuse.
+| :warning: | It is important that the curator verifies the credibility of the content origins and the metadata provided: If not enough metadata is provided the content won't be aggregated and the discover is ignored, this is also true if the aggregation system detects metadata abuse.
 |---|:---|
