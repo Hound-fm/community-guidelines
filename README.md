@@ -44,6 +44,17 @@ Hound.fm provides a community-driven discovery system powered by [curators](...)
 
 A "discover" is a simple action triggered by the curator on a new content, the first curator to trigger this action is assigned as the discoverer.
 
+| :warning: | This actions should be triggered `only` on content that the curator wants to recommend to the community, in order to preserve a more organic discoverability.
+|---|:---|
+
+In other words a "discover" is basically a recommendation done by the curator and broadcasted to the community:
+
+> Curator: Hey, I found this awesome track (stream claim) by `@channel`, check it out. 
+>
+> Hound.fm: Curator has discovered a new track by @channel, check it out.
+> 
+> Community: Ok nice, I'll listen later...
+
 #### Curator actions:
 
 An "action" is just an special [transaction](https://lbry.com/faq/transaction-types), once is aproved it will take a few minutes to appear as a new discover.
