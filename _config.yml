@@ -1,5 +1,8 @@
 plugins:
   - jemoji
+  - jekyll-titles-from-headings
+  - premonition
+  
 relative_links:
   enabled: true
   collections: true
