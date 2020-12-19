@@ -9,7 +9,7 @@ This is the first version of our Community Guidelines. Please read carefully and
 
 #### Not Allowed
 
-:x: Spam ( Fake accounts, unesessary user interactions, advertisment etc.. )
+:x: Spam ( Fake accounts, unesessary curator actions, advertisment etc.. )
 
 :x: Use or encourage metadata abuse ( See Content creators guidelines )
 
