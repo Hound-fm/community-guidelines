@@ -72,7 +72,7 @@ There is no identifier registered for "All rights reserved" on the SPDX License 
 Example:
 
 ```JSON
-{ license: 'ARR' }
+{ "license": "ARR" }
 ```
 
 #### Public domain
@@ -87,7 +87,7 @@ For public domain is recommended to use the `CC0-1.0` spdx-license-identifier or
  Example:
 
 ```JSON
-{ license_url: 'http://domain.com/custom_license/1.0/archive.txt' }
+{ "license_url": "http://domain.com/custom_license/1.0/archive.txt" }
 ```
 
  
