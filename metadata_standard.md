@@ -1,8 +1,17 @@
 # Metadata Standard
 
 ### Overview
-| :warning: | Work in progress, we need more help and feedback from the community.
-|---|:---|
+
+Using standardised metadata descriptions makes datasets:
+
+    - More discoverable
+    - Easily syndicated
+    - Transferable
+    - Easily combined with other datasets
+    
+> Ultimately makes it easier for datasets to be used in real-world situations to add value.
+
+Learn more: [Metadata standards for open data](https://salsadigital.com.au/insights/metadata-standards-for-open-data)
 
 ### Metadata
 
@@ -21,22 +30,6 @@ It is stored in the blockchain as the value property of a claim.
 | `license` | A valid spdx license identifier or english acronym | Required
 | `license_url` | A valid url for the actual license | Not required
 | `description` | A simple description of the content. It can include nested metadata (YFM) | Not required
-
-### Open Standard
-
-Using standardised metadata descriptions makes datasets:
-
-    - More discoverable
-    - Easily syndicated
-    - Transferable
-    - Easily combined with other datasets
-    
-> Ultimately makes it easier for datasets to be used in real-world situations to add value.
-
-Learn more: [Metadata standards for open data](https://salsadigital.com.au/insights/metadata-standards-for-open-data)
-
-| :warning: | Work in progress, we need more help and feedback from the community.
-|---|:---|
 
 ### Licensed content
 
