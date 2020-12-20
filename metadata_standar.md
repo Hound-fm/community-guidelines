@@ -55,6 +55,7 @@ Identifiers are short strings so they can take less space and are easy to proces
 By providing a short identifier, users can efficiently refer to a license without having to redundantly reproduce the full license. 
 
 They also help dealing with typos and multilingual content, for example take a look at this two licenses:
+
 ```
 - Attribution-NonCommercial-ShareAlike 4.0 International
 - Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
@@ -94,8 +95,7 @@ Example using the correct format:
  
  #### License url
  
- With a valid spdx-license-identifier there is no need to provide an url for the license and the `license_url` field can be ignored.
- however if your content is published under a different license that is not registered on the SPDX License list please include a valid url.
+ With a valid spdx license identifier there is no need to provide an url and the `license_url` field can be ignored. However if your content is published under a different license that is not registered on the SPDX License list please include a valid one.
  
 Example using the correct format:
 
@@ -103,8 +103,7 @@ Example using the correct format:
 { "license_url": "http://domain.com/custom_license/1.0/archive.txt" }
 ```
 
- 
-##### TODO: Add Missing fields:
+ <!-- TODO: Add Missing fields for P-LINE, C-LINE:
 
 Find a way to extend metadata for the following fields
 
@@ -115,3 +114,5 @@ Find a way to extend metadata for the following fields
 For more information:
 https://routenote.com/blog/what-do-the-p-line-and-c-line-mean-in-music-copyright/
 https://artists.spotify.com/blog/talk-the-talk-music-terms-a-glossary
+
+-->
