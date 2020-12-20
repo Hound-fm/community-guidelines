@@ -116,3 +116,12 @@ https://routenote.com/blog/what-do-the-p-line-and-c-line-mean-in-music-copyright
 https://artists.spotify.com/blog/talk-the-talk-music-terms-a-glossary
 
 -->
+
+#### Legacy strings
+
+Legacy strings are supported for compatibility with old metadata published and they will be deprecated in the future. You should use the english acronym instead.
+
+| Name | Legacy string
+|---| :---
+| `PD` | Public Domain
+| `ARR` | All rights reserved
