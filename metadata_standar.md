@@ -126,6 +126,11 @@ Legacy strings are supported for compatibility with old metadata published and t
 | `PD` | Public Domain
 | `ARR` | All rights reserved
 
+### Tags
+
+| :warning: | Work in progress, we need more help and feedback from the community.
+|---|:---|
+
 ### Extending the metadata
 
 Some types of content require very specific metadata information wich is not provided in the current metadata schema.
