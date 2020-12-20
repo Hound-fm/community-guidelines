@@ -24,7 +24,7 @@ It is stored in the blockchain as the value property of a claim.
 
 ### Open Standard
 
-> Using standardised metadata descriptions makes datasets:
+Using standardised metadata descriptions makes datasets:
 
     - More discoverable
     - Easily syndicated
@@ -33,7 +33,7 @@ It is stored in the blockchain as the value property of a claim.
     
 > Ultimately makes it easier for datasets to be used in real-world situations to add value.
 
-Source: [Metadata standards for open data](https://salsadigital.com.au/insights/metadata-standards-for-open-data)
+Learn more: [Metadata standards for open data](https://salsadigital.com.au/insights/metadata-standards-for-open-data)
 
 | :warning: | Work in progress, we need more help and feedback from the community.
 |---|:---|
