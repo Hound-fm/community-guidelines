@@ -46,30 +46,42 @@ Copyright is a law that gives the owner of a work (for example, a book, movie, p
 | Name | Description | Required
 |---| :---| :---
 | `license` | A valid license identifier or a legacy string | Required
-| `license_url` | A valid url for the actual license | Not required unless published under a different license 
+| `license_url` | A valid url for the actual license | Not required
 
-All Rights Reserved identifier:
+#### All Rights Reserved identifier:
 
 > Copyright is automatically granted to you when you begin creating your work. You don't have to file anything anywhere, or publish anything online to own the copyright of your music. By choosing All Rights Reserved, you ask that other creators not use your material.  
 https://help.soundcloud.com/hc/en-us/articles/115003566468-Choosing-a-license-for-your-track
 
-Is recommended to use the `ARR` identifier or the legacy string `All Rights Reserved` instead of a copyright notice unless otherwise required.
+Is recommended to use the `ARR` identifier instead of the legacy string `All Rights Reserved`. A copyright notice should not be use unless otherwise required.
 
 > US law no longer requires the use of a copyright notice, although placing it on a work does confer certain benefits to the copyright holder. Prior law did, however, require a notice, and the use of a notice is still relevant to the copyright status of older works. 
 
+Example:
 
-CC License identifier format:
+```
+# Metadata...
+{ license: 'ARR' }
+```
+
+ #### CC License identifier format:
 
 ```
 - All identifiers should start with the creative commons 2-Letter abbreviation (CC)
 - It must include all the license terms on a 2-Letter abbreviation (BY, NC, SA etc..) separated by a hypen (-)
 - License version should be provided at the end on semantic versioning format ( 3.0, 4.0, etc..) 
 ```
+Example:
 
 ```
 License name: Attribution-NonCommercial-ShareAlike 4.0 International
 License identifier: CC BY-NC-SA 4.0
+
+# Metadata...
+{ license: 'CC BY-NC-SA 4.0' }
 ```
+
+#### Public domain
 
 For public domain is recommended to use `CC0` as the identifier instead of the legacy string `Public domain`.
 
@@ -78,12 +90,15 @@ Example:
 ```
 License name: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 License identifier: CCO
+
+# Metadata...
+{ license: 'CC0' }
 ```
 
-Why use an identifier and not the license name ?
+#####  Why use an identifier and not the license name ?
 
 Identifiers are short strings so they can take less space and are easy to process by other software or programs.
-They also help dealing with multilingual content, for example take a look at this two licenses:
+They also help dealing with typos and multilingual content, for example take a look at this two licenses:
 
 > Attribution-NonCommercial-ShareAlike 4.0 International
 > Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
@@ -93,7 +108,9 @@ Unless you can read and understand both languages (english, french) it is diffic
 
 Please see for a full list of identifiers: https://creativecommons.org/licenses/
  
-#### Missing fields:
+##### TODO: Add Missing fields:
+
+Find a way to extend metadata for the following fields
 
 > The P Line, often marked with a ℗, identifies that their is an owner to the rights of a sound recording. Whatever follows the P Line should identify who is the owner of those rights.
 
