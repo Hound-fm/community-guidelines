@@ -43,16 +43,17 @@ Copyright is a law that gives the owner of a work (for example, a book, movie, p
  
  #### Metadata fields:
  
- | Name | Description | Required
-|---|:---|:---|
-| `license` | License identifier | Required
+| Name | Description | Required
+|---| :---| :---
+| `license` | A valid license identifier or a legacy string | Required
+| `license_url` | A valid url for the actual license | Not required unless published under a different license 
 
 All Rights Reserved identifier:
 
 > Copyright is automatically granted to you when you begin creating your work. You don't have to file anything anywhere, or publish anything online to own the copyright of your music. By choosing All Rights Reserved, you ask that other creators not use your material.  
 https://help.soundcloud.com/hc/en-us/articles/115003566468-Choosing-a-license-for-your-track
 
-Is recommended to use the `ARR` identifier or the legacy string `All Rights Reserved` instead a copyright notice unless otherwise required.
+Is recommended to use the `ARR` identifier or the legacy string `All Rights Reserved` instead of a copyright notice unless otherwise required.
 
 > US law no longer requires the use of a copyright notice, although placing it on a work does confer certain benefits to the copyright holder. Prior law did, however, require a notice, and the use of a notice is still relevant to the copyright status of older works. 
 
