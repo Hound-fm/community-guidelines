@@ -60,7 +60,14 @@ They also help dealing with typos and multilingual content, for example take a l
 - Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
 ```
 
+Example using the correct format:
+
+```JSON
+{ "license": "CC-BY-NC-SA-4.0" }
+```
+
 Unless you can read and understand both languages (english and french) it is difficult to tell if they are the same license or different types.
+
 
 Learn more: https://spdx.org/licenses/
 
@@ -69,7 +76,7 @@ Learn more: https://spdx.org/licenses/
 
 There is no identifier registered for "All rights reserved" on the SPDX License list, but you can use the `ARR` acronym instead of the legacy string `All Rights Reserved` string. 
 
-Example:
+Example using the correct format:
 
 ```JSON
 { "license": "ARR" }
@@ -79,12 +86,18 @@ Example:
 
 For public domain is recommended to use the `CC0-1.0` spdx-license-identifier or the english acronym `PD` instead of the legacy string `Public domain`.
  
+Example using the correct format:
+ 
+ ```JSON
+{ "license": "CC0-1.0" }
+```
+ 
  #### License url
  
  With a valid spdx-license-identifier there is no need to provide an url for the license and the `license_url` field can be ignored.
  however if your content is published under a different license that is not registered on the SPDX License list please include a valid url.
  
- Example:
+Example using the correct format:
 
 ```JSON
 { "license_url": "http://domain.com/custom_license/1.0/archive.txt" }
