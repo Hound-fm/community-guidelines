@@ -125,3 +125,25 @@ Legacy strings are supported for compatibility with old metadata published and t
 |---| :---
 | `PD` | Public Domain
 | `ARR` | All rights reserved
+
+### Extending the metadata
+
+Some types of content require very specific metadata information wich is not provided in the current metadata shema.
+Since most platforms interprete the `description` field as markdow, it is posible to include nested metadata within this field using yaml front matter:
+
+> Front matter is metadata written in yaml, located at the top of a file wrapped in ---'s.
+
+Front matter example:
+
+``` YML
+---
+key: value
+---
+
+Additional content ( usually as markdown format )...
+```
+
+The nested metadata included on the yaml block should be very minimal and only used if the current metadata fileds don't provide enough information.
+
+Nested metadata keys should follow a specific naming convention and the values should only include common data types such as string or numbers.
+
