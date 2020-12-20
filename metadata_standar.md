@@ -145,7 +145,9 @@ Additional content ( usually as markdown format )...
 
 The nested metadata included on the yaml block should be very minimal and only used if the current metadata fileds don't provide enough information.
 
-Nested metadata keys should follow a specific naming convention and the values should only include common data types such as string or numbers.
+Nested metadata keys should follow a specific naming convention and never tried to replace the current available metadata fields.
+
+Nested metadata values should only include common data types such as string or numbers.
 
 If the nested metadata has an invalid syntax, format or structure or just does not provide any relevant information it should be ignored.
 
