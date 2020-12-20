@@ -75,7 +75,7 @@ Learn more: https://spdx.org/licenses/
 
 #### All Rights Reserved identifier:
 
-There is no identifier registered for "All rights reserved" on the SPDX License list, but you can use the `ARR` acronym instead of the legacy string `All Rights Reserved` string. 
+There is no identifier registered for "All rights reserved" on the SPDX License list, but you can use the `ARR` acronym instead of the legacy string "All Rights Reserved". 
 
 Example using the correct format:
 
@@ -85,7 +85,7 @@ Example using the correct format:
 
 #### Public domain
 
-For public domain is recommended to use the `CC0-1.0` spdx-license-identifier or the english acronym `PD` instead of the legacy string `Public domain`.
+For public domain is recommended to use the `CC0-1.0` spdx-license-identifier or the english acronym `PD` instead of the legacy string "Public domain".
  
 Example using the correct format:
  
