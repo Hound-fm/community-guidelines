@@ -45,7 +45,7 @@ Copyright is a law that gives the owner of a work (for example, a book, movie, p
  
 | Name | Description | Required
 |---| :---| :---
-| `license` | A valid `spdx-license-identifier` or english acronym | Required
+| `license` | A valid spdx license identifier or english acronym | Required
 | `license_url` | A valid url for the actual license | Not required
 
 #####  Why use an identifier and not the license name ?
