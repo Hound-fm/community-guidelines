@@ -6,11 +6,21 @@
 
 ### Metadata
 
-> Metadata is structured information about a stream or channel separate from the content itself (e.g. the title, language, media type, etc.).
-> It is stored in the blockchain as the value property of a claim.
+Metadata is structured information about a stream or channel separate from the content itself (title, language, media type, etc.).
+It is stored in the blockchain as the value property of a claim.
 
 | :information_source: | The content of this document will cover only specific areas for improvement, please read the complete metadata [specification](https://lbry.tech/spec#metadata)
 |---|:---|
+
+ #### Metadata fields
+ 
+ This are all the metadata fields mentioned in the doucument:
+ 
+| Name | Description | Required
+|---| :---| :---
+| `license` | A valid spdx license identifier or english acronym | Required
+| `license_url` | A valid url for the actual license | Not required
+| `description` | A simple description of the content. It can include nested metadata (YFM) | Not required
 
 ### Open Standard
 
@@ -41,13 +51,6 @@ Copyright is a law that gives the owner of a work (for example, a book, movie, p
  It helps protect authors from other people copying their works without permission and/or for commercial purposes.
  
  Including this information on the metadata is important to prevent unintentional copyright infringement and makes easy for everyone to discover, share, reuse or remix content legally.
- 
- #### Metadata fields: 
- 
-| Name | Description | Required
-|---| :---| :---
-| `license` | A valid spdx license identifier or english acronym | Required
-| `license_url` | A valid url for the actual license | Not required
 
 #####  Why use an identifier and not the license name ?
 
