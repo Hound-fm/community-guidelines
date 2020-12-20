@@ -12,7 +12,7 @@ It is stored in the blockchain as the value property of a claim.
 | :information_source: | The content of this document will cover only specific areas for improvement, please read the complete metadata [specification](https://lbry.tech/spec#metadata)
 |---|:---|
 
- #### Metadata fields
+ ### Metadata fields
  
  This are all the metadata fields mentioned in the doucument:
  
