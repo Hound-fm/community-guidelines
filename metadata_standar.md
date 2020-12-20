@@ -62,14 +62,13 @@ They also help dealing with typos and multilingual content, for example take a l
 - Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
 ```
 
+Unless you can read and understand both languages (english and french) it is difficult to tell if they are the same license or different types.
+
 Example using the correct format:
 
 ```JSON
 { "license": "CC-BY-NC-SA-4.0" }
 ```
-
-Unless you can read and understand both languages (english and french) it is difficult to tell if they are the same license or different types.
-
 
 Learn more: https://spdx.org/licenses/
 
