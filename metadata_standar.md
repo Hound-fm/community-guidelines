@@ -147,3 +147,4 @@ The nested metadata included on the yaml block should be very minimal and only u
 
 Nested metadata keys should follow a specific naming convention and the values should only include common data types such as string or numbers.
 
+| :warning: | Software or applications should always use the safe-yaml parser and have a clear predefined schema for validatiing the nested metadata in order before any other process or interaction.
