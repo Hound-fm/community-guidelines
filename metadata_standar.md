@@ -128,8 +128,8 @@ Legacy strings are supported for compatibility with old metadata published and t
 
 ### Extending the metadata
 
-Some types of content require very specific metadata information wich is not provided in the current metadata shema.
-Since most platforms interprete the `description` field as markdow, it is posible to include nested metadata within this field using yaml front matter:
+Some types of content require very specific metadata information wich is not provided in the current metadata schema.
+Since most platforms interpret the `description` field as markdown, it is possible to include nested metadata within this field using yaml front matter:
 
 > Front matter is metadata written in yaml, located at the top of a file wrapped in ---'s.
 
