@@ -75,7 +75,7 @@ Learn more: https://spdx.org/licenses/
 
 #### All Rights Reserved identifier:
 
-There is no identifier registered for "All rights reserved" on the SPDX License list, but you can use the `ARR` acronym instead of the legacy string "All Rights Reserved". 
+There is no identifier registered for "All rights reserved" on the SPDX License list, but you can use the `ARR` acronym instead of the legacy string. 
 
 Example using the correct format:
 
