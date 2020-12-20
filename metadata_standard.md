@@ -120,7 +120,7 @@ Legacy strings are supported for compatibility with old metadata published and t
 | Name | Legacy string
 |---| :---
 | `PD` | Public Domain
-| `ARR` | All rights reserved
+| `ARR` | All rights reserved, Copyrighted
 
 ### Tags
 
