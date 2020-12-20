@@ -154,7 +154,7 @@ Nested metadata keys should follow a specific naming convention and never tried 
 
 Nested metadata values should only include common data types such as string or numbers.
 
-If the nested metadata has an invalid syntax, format or structure or just does not provide any relevant information it should be ignored.
+If the nested metadata has an invalid syntax, format or structure or does not provide any relevant information it should be ignored.
 
 | :warning: | Software or applications should always use the safe-yaml parser and have a clear predefined schema to validate the nested metadata before any other process or interaction with it.
 |---|:---|
