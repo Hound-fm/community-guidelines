@@ -41,72 +41,55 @@ Copyright is a law that gives the owner of a work (for example, a book, movie, p
  
  Including this information on the metadata is important to prevent unintentional copyright infringement and makes easy for everyone to discover, share, reuse or remix content legally.
  
- #### Metadata fields:
+ #### Metadata fields: 
  
 | Name | Description | Required
 |---| :---| :---
-| `license` | A valid license identifier or a legacy string | Required
+| `license` | A valid `spdx-license-identifier` or english acronym | Required
 | `license_url` | A valid url for the actual license | Not required
-
-#### All Rights Reserved identifier:
-
-> Copyright is automatically granted to you when you begin creating your work. You don't have to file anything anywhere, or publish anything online to own the copyright of your music. By choosing All Rights Reserved, you ask that other creators not use your material.  
-https://help.soundcloud.com/hc/en-us/articles/115003566468-Choosing-a-license-for-your-track
-
-Is recommended to use the `ARR` identifier instead of the legacy string `All Rights Reserved`. A copyright notice should not be use unless otherwise required.
-
-> US law no longer requires the use of a copyright notice, although placing it on a work does confer certain benefits to the copyright holder. Prior law did, however, require a notice, and the use of a notice is still relevant to the copyright status of older works. 
-
-Example:
-
-```
-# Metadata...
-{ license: 'ARR' }
-```
-
- #### CC License identifier format:
-
-```
-- All identifiers should start with the creative commons 2-Letter abbreviation (CC)
-- It must include all the license terms on a 2-Letter abbreviation (BY, NC, SA etc..) separated by a hypen (-)
-- License version should be provided at the end on semantic versioning format ( 3.0, 4.0, etc..) 
-```
-Example:
-
-```
-License name: Attribution-NonCommercial-ShareAlike 4.0 International
-License identifier: CC BY-NC-SA 4.0
-
-# Metadata...
-{ license: 'CC BY-NC-SA 4.0' }
-```
-
-#### Public domain
-
-For public domain is recommended to use `CC0` as the identifier instead of the legacy string `Public domain`.
-
-Example:
-
-```
-License name: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
-License identifier: CCO
-
-# Metadata...
-{ license: 'CC0' }
-```
 
 #####  Why use an identifier and not the license name ?
 
 Identifiers are short strings so they can take less space and are easy to process by other software or programs.
+
+By providing a short identifier, users can efficiently refer to a license without having to redundantly reproduce the full license. 
+
 They also help dealing with typos and multilingual content, for example take a look at this two licenses:
+```
+- Attribution-NonCommercial-ShareAlike 4.0 International
+- Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
+```
 
-> Attribution-NonCommercial-ShareAlike 4.0 International
-> Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
-> Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
+Unless you can read and understand both languages (english and french) it is difficult to tell if they are the same license or different types.
 
-Unless you can read and understand both languages (english, french) it is difficult to tell if they are the same license or different types.
+Learn more: https://spdx.org/licenses/
 
-Please see for a full list of identifiers: https://creativecommons.org/licenses/
+
+#### All Rights Reserved identifier:
+
+There is no identifier registered for "All rights reserved" on the SPDX License list, but you can use the `ARR` acronym instead of the legacy string `All Rights Reserved` string. 
+
+Example:
+
+```JSON
+{ license: 'ARR' }
+```
+
+#### Public domain
+
+For public domain is recommended to use the `CC0-1.0` spdx-license-identifier or the english acronym `PD` instead of the legacy string `Public domain`.
+ 
+ #### License url
+ 
+ With a valid spdx-license-identifier there is no need to provide an url for the license and the `license_url` field can be ignored.
+ however if your content is published under a different license that is not registered on the SPDX License list please include a valid url.
+ 
+ Example:
+
+```JSON
+{ license_url: 'http://domain.com/custom_license/1.0/archive.txt' }
+```
+
  
 ##### TODO: Add Missing fields:
 
