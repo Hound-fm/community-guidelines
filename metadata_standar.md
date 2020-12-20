@@ -45,7 +45,17 @@ Copyright is a law that gives the owner of a work (for example, a book, movie, p
  
  | Name | Description | Required
 |---|:---|:---|
-| `license` | CC License identifier or a copyright notice. | Required
+| `license` | License identifier | Required
+
+All Rights Reserved identifier:
+
+> Copyright is automatically granted to you when you begin creating your work. You don't have to file anything anywhere, or publish anything online to own the copyright of your music. By choosing All Rights Reserved, you ask that other creators not use your material.  
+https://help.soundcloud.com/hc/en-us/articles/115003566468-Choosing-a-license-for-your-track
+
+Is recommended to use the `ARR` identifier or the legacy string `All Rights Reserved` instead a copyright notice unless otherwise required.
+
+> US law no longer requires the use of a copyright notice, although placing it on a work does confer certain benefits to the copyright holder. Prior law did, however, require a notice, and the use of a notice is still relevant to the copyright status of older works. 
+
 
 CC License identifier format:
 
@@ -55,13 +65,18 @@ CC License identifier format:
 - License version should be provided at the end on semantic versioning format ( 3.0, 4.0, etc..) 
 ```
 
-For public domain is recommended to use `CC0` as the identifier.
+```
+License name: Attribution-NonCommercial-ShareAlike 4.0 International
+License identifier: CC BY-NC-SA 4.0
+```
+
+For public domain is recommended to use `CC0` as the identifier instead of the legacy string `Public domain`.
 
 Example:
 
 ```
-License name: Attribution-NonCommercial-ShareAlike 4.0 International
-License identifier: CC BY-NC-SA 4.0
+License name: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+License identifier: CCO
 ```
 
 Why use an identifier and not the license name ?
@@ -71,8 +86,18 @@ They also help dealing with multilingual content, for example take a look at thi
 
 > Attribution-NonCommercial-ShareAlike 4.0 International
 > Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
+> Attribution - Pas d’Utilisation Commerciale - Partage dans les Mêmes Conditions 4.0 International
 
 Unless you can read and understand both languages (english, french) it is difficult to tell if they are the same license or different types.
 
 Please see for a full list of identifiers: https://creativecommons.org/licenses/
  
+#### Missing fields:
+
+> The P Line, often marked with a ℗, identifies that their is an owner to the rights of a sound recording. Whatever follows the P Line should identify who is the owner of those rights.
+
+> The C Line, symbolised with a ©, is the copyright of the music but not the sound recording itself. The C Line signifies the copyright owner of the music but not recordings of it. 
+
+For more information:
+https://routenote.com/blog/what-do-the-p-line-and-c-line-mean-in-music-copyright/
+https://artists.spotify.com/blog/talk-the-talk-music-terms-a-glossary
