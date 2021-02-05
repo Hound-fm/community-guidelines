@@ -94,7 +94,7 @@ Different types of channels allows to have a clear `relation` between them:
 
 A discover with a relation of linked channels benefits all of them and not just the original publisher, and they can be consider as collaborators.
 
-All programs and users publishing content should follow the open metadata [standard](https://github.com/Hound-fm/community-guidelines/blob/main/metadata_standard.md)
+All programs and users publishing content should follow the open metadata [standard](https://github.com/Hound-fm/metadata-standard)
 
 | :warning: | Work in progress, we need more feedback from other creators.
 |---|:---|
